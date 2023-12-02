@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <h2>Simple To Do List</h2>
+        <button onclick="openner()" id="openInputfield">Add New Item</button>
+        <input type="text" id="item" placeholder="Your item..">
+        <span onclick="newItem()" class="addbtn">Add</span>
+    </div>
+    <ul id="myList">
+        <li>Go to class</li>
+        <li>Breaktime</li>
+        <li>Discussion</li>
+        <li>Going to the gym</li>
+        <li>Meeting with George</li>
+        <li>Rest</li>
+    </ul>
+    <script src="todo.js"></script>
+</body>
+</html>
